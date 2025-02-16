@@ -25,7 +25,7 @@ class MapboxViewController: UIViewController {
         
         let myMapInitOptions = MapInitOptions(
             cameraOptions: cameraOptions,
-            styleURI: StyleURI(rawValue: "mapbox://styles/nmondollot/cl95n147u003k15qry7pvfmq2")
+            styleURI: StyleURI(rawValue: Config.styleUrl)
         )
         
         mapView = MapView(frame: view.bounds, mapInitOptions: myMapInitOptions)
@@ -78,11 +78,11 @@ class MapboxViewController: UIViewController {
     
     func addSources() {
         var problems = VectorSource(id: "problems")
-        problems.url = "mapbox://nmondollot.4xsv235p"
+        problems.url = Config.problemsTilesetIdUrl
         problems.promoteId = .string("id") // needed to make Feature-State work
         
         var circuits = VectorSource(id: "circuits")
-        circuits.url = "mapbox://nmondollot.11sumdgh"
+        circuits.url = Config.circuitsTilesetIdUrl
 
         do {
             try self.mapView.mapboxMap.addSource(problems)
