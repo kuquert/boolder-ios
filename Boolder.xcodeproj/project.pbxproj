@@ -270,6 +270,8 @@
 		37F563F525AB09F400271346 /* TopoEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopoEntry.swift; sourceTree = "<group>"; };
 		37F9358C250578D000B1CAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37F9358E250578D700B1CAB2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		642294AA2D62AB5E00007872 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		642294AB2D62AB5E00007872 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		645151412D59403C00A940C7 /* ClusterAreasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterAreasView.swift; sourceTree = "<group>"; };
 		64CD09D12D62A2E9005CDCB0 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -615,6 +617,7 @@
 				en,
 				Base,
 				fr,
+				"pt-BR",
 			);
 			mainGroup = 37A8C61D2453263300DC161F;
 			packageReferences = (
@@ -880,6 +883,7 @@
 			children = (
 				37A6572624BDC00500273A9A /* en */,
 				37A6572924BDC07000273A9A /* fr */,
+				642294AB2D62AB5E00007872 /* pt-BR */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -889,6 +893,7 @@
 			children = (
 				37F9358C250578D000B1CAB2 /* en */,
 				37F9358E250578D700B1CAB2 /* fr */,
+				642294AA2D62AB5E00007872 /* pt-BR */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
