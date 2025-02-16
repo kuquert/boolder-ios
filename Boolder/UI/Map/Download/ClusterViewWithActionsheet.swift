@@ -19,7 +19,7 @@ struct ClusterViewWithActionsheet: View {
     @State private var areaToEdit: Area?
     
     var body: some View {
-        ClusterView(clusterDownloader: clusterDownloader, presentRemoveDownloadSheet: $presentRemoveDownloadSheet, presentCancelDownloadSheet: $presentCancelDownloadSheet, presentRemoveClusterDownloadSheet: $presentRemoveClusterDownloadSheet, areaToEdit: $areaToEdit)
+        ClusterDownloadView(clusterDownloader: clusterDownloader, presentRemoveDownloadSheet: $presentRemoveDownloadSheet, presentCancelDownloadSheet: $presentCancelDownloadSheet, presentRemoveClusterDownloadSheet: $presentRemoveClusterDownloadSheet, areaToEdit: $areaToEdit)
             .background {
                 EmptyView().actionSheet(isPresented: $presentRemoveDownloadSheet) {
                     ActionSheet(

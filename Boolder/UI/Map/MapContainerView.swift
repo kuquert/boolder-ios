@@ -140,7 +140,6 @@ struct MapContainerView: View {
                     Spacer()
                     
                     if(mapState.canGoToNextCircuitProblem) {
-                        
                         Button(action: {
                             mapState.selectCircuit(circuit)
                             mapState.goToNextCircuitProblem()
