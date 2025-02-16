@@ -120,7 +120,6 @@ struct MapContainerView: View {
                     
                     if(mapState.canGoToPreviousCircuitProblem) {
                         Button(action: {
-                            //TODO: Navigate to next area in cluster
                             mapState.selectCircuit(circuit)
                             mapState.goToPreviousCircuitProblem()
                         }) {
