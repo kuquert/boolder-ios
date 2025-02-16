@@ -1,5 +1,5 @@
 //
-//  ClusterView.swift
+//  ClusterDownloadView.swift
 //  Boolder
 //
 //  Created by Nicolas Mondollot on 28/06/2024.
@@ -8,8 +8,8 @@
 
 import SwiftUI
 import TipKit
-//TODO: Rename to ClusterDownloadView
-struct ClusterView: View {
+
+struct ClusterDownloadView: View {
     @Environment(\.presentationMode) var presentationMode
     
     @ObservedObject var clusterDownloader: ClusterDownloader
