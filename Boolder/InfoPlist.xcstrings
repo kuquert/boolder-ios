@@ -1,0 +1,76 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "LocationAccuracyAuthorizationDescription" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enable precise location. The map works best only when precise location data is available."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Songez à activer la position précise, vous aurez une bien meilleure expérience sur la carte."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por favor, ative a localização precisa. O mapa funciona melhor quando os dados de localização precisa estão disponíveis."
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription" : {
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You'll be able to take photos of problems."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pourrez prendre des photos des voies."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você poderá tirar fotos dos problemas."
+          }
+        }
+      }
+    },
+    "NSLocationWhenInUseUsageDescription" : {
+      "comment" : "InfoPlist.strings\n  Boolder\n\n  Created by Nicolas Mondollot on 06/09/2020.\n  Copyright © 2020 Nicolas Mondollot. All rights reserved.",
+      "extractionState" : "migrated",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your location will be displayed on the map to help you find your way around."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre position s'affichera sur la carte pour vous aider à vous repérer."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sua localização será exibida no mapa para ajudá-lo a se orientar."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
