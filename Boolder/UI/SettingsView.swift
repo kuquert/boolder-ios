@@ -24,7 +24,7 @@ struct SettingsView: View {
                 }) {
                     Text("Show NewTopoView")
                 }.sheet(isPresented: $showNewTopoView) {
-                    NewTopoView(topoEntry: TopoEntry())
+//                    NewTopoView(topoEntry: TopoEntry())
                 }
             }
             
