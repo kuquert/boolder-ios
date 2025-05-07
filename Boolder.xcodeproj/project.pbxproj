@@ -1070,7 +1070,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 80;
 				DEVELOPMENT_ASSET_PATHS = "\"Boolder/Preview Content\"";
-				DEVELOPMENT_TEAM = 8Y46BCZUL9;
+				DEVELOPMENT_TEAM = BJXVASWXX8;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Boolder/Info.plist;
@@ -1080,7 +1080,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasmondollot.boolder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuquert.boolder;
 				PRODUCT_NAME = Boolder;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1095,7 +1095,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 80;
 				DEVELOPMENT_ASSET_PATHS = "\"Boolder/Preview Content\"";
-				DEVELOPMENT_TEAM = 8Y46BCZUL9;
+				DEVELOPMENT_TEAM = BJXVASWXX8;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Boolder/Info.plist;
@@ -1105,7 +1105,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.31.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nicolasmondollot.boolder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuquert.boolder;
 				PRODUCT_NAME = Boolder;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
