@@ -8,7 +8,12 @@
 import Foundation
 
 struct Config {
-    static let styleUrl = "mapbox://styles/nmondollot/cl95n147u003k15qry7pvfmq2"
-    static let problemsTilesetIdUrl = "mapbox://nmondollot.4xsv235p"
-    static let circuitsTilesetIdUrl = "mapbox://nmondollot.11sumdgh"
+    // style should include a layer with tileset
+    static let styleUrl = "mapbox://styles/kuquert/cm6qxnjmk002s01s72thha9an"
+    // name of the layer in the mapbox style/tileset
+    static let problemsTilesetLayerId = "problems-0dbgsr"
+    // url for the "problems" tileset
+    static let problemsTilesetIdUrl = "mapbox://kuquert.4wlvrxaq"
+    // url for "sectors" tileset (not circuits?)
+    static let circuitsTilesetIdUrl = "mapbox://kuquert.3jps280n"
 }
