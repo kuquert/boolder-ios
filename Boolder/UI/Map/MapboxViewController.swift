@@ -19,8 +19,8 @@ class MapboxViewController: UIViewController {
         super.viewDidLoad()
         
         let cameraOptions = CameraOptions(
-            center: CLLocationCoordinate2D(latitude: 48.3925623, longitude: 2.5968216),
-            zoom: 10.2
+            center: CLLocationCoordinate2D(latitude: -19.30961794041, longitude: -43.61206230323),
+            zoom: 14.3
         )
         
         let myMapInitOptions = MapInitOptions(
